@@ -1,0 +1,32 @@
+<svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0a0a0f; }
+    .border { stroke: rgba(139, 92, 246, 0.3); stroke-width: 1; fill: none; }
+    .text { font-family: 'Courier New', monospace; fill: #a1a1aa; font-size: 14px; }
+    .title { font-family: 'Courier New', monospace; fill: #8b5cf6; font-size: 16px; font-weight: bold; letter-spacing: 2px; }
+    .bar-bg { fill: rgba(255, 255, 255, 0.05); rx: 4; }
+    .bar-fg { fill: #d946ef; rx: 4; filter: drop-shadow(0 0 5px rgba(217, 70, 239, 0.5)); }
+  </style>
+  <rect width="800" height="250" rx="10" class="bg border"/>
+  <text x="30" y="40" class="title">// PRIMARY LANGUAGES</text>
+
+  <text x="30" y="95" class="text">Jupyter Notebook</text>
+  <rect x="200" y="80" width="500" height="20" class="bar-bg"/>
+  <rect x="200" y="80" width="291" height="20" class="bar-fg"/>
+  <text x="720" y="95" class="text">58%</text>
+
+  <text x="30" y="135" class="text">TypeScript</text>
+  <rect x="200" y="120" width="500" height="20" class="bar-bg"/>
+  <rect x="200" y="120" width="83" height="20" class="bar-fg"/>
+  <text x="720" y="135" class="text">16%</text>
+
+  <text x="30" y="175" class="text">Python</text>
+  <rect x="200" y="160" width="500" height="20" class="bar-bg"/>
+  <rect x="200" y="160" width="83" height="20" class="bar-fg"/>
+  <text x="720" y="175" class="text">16%</text>
+
+  <text x="30" y="215" class="text">Java</text>
+  <rect x="200" y="200" width="500" height="20" class="bar-bg"/>
+  <rect x="200" y="200" width="41" height="20" class="bar-fg"/>
+  <text x="720" y="215" class="text">8%</text>
+</svg>

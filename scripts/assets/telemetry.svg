@@ -1,0 +1,25 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0a0a0f; }
+    .border { stroke: rgba(139, 92, 246, 0.3); stroke-width: 1; fill: none; }
+    .text { font-family: 'Courier New', monospace; fill: #a1a1aa; font-size: 14px; }
+    .title { font-family: 'Courier New', monospace; fill: #8b5cf6; font-size: 16px; font-weight: bold; letter-spacing: 2px; }
+    .value { font-family: 'Courier New', monospace; fill: #06b6d4; font-size: 24px; font-weight: bold; }
+    .glow { filter: drop-shadow(0 0 5px rgba(6, 182, 212, 0.5)); }
+  </style>
+  <rect width="800" height="200" rx="10" class="bg border"/>
+  
+  <text x="30" y="40" class="title">// GITHUB TELEMETRY</text>
+  
+  <text x="30" y="100" class="text">REPOSITORIES</text>
+  <text x="30" y="130" class="value glow">14</text>
+  
+  <text x="230" y="100" class="text">STARS</text>
+  <text x="230" y="130" class="value glow">0</text>
+  
+  <text x="430" y="100" class="text">FORKS</text>
+  <text x="430" y="130" class="value glow">0</text>
+  
+  <text x="630" y="100" class="text">FOLLOWERS</text>
+  <text x="630" y="130" class="value glow">0</text>
+</svg>
