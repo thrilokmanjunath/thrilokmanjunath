@@ -12,7 +12,7 @@
   <text x="30" y="40" class="title">// GITHUB TELEMETRY</text>
   
   <text x="30" y="100" class="text">REPOSITORIES</text>
-  <text x="30" y="130" class="value glow">15</text>
+  <text x="30" y="130" class="value glow">18</text>
   
   <text x="230" y="100" class="text">STARS</text>
   <text x="230" y="130" class="value glow">0</text>
