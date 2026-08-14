@@ -10,22 +10,22 @@
   <rect width="800" height="250" rx="10" class="bg border"/>
   <text x="30" y="40" class="title">// PRIMARY LANGUAGES</text>
 
-  <text x="30" y="95" class="text">Python</text>
+  <text x="30" y="95" class="text">Jupyter Notebook</text>
   <rect x="200" y="80" width="500" height="20" class="bar-bg"/>
   <rect x="200" y="80" width="205" height="20" class="bar-fg"/>
   <text x="720" y="95" class="text">41%</text>
 
-  <text x="30" y="135" class="text">Jupyter Notebook</text>
+  <text x="30" y="135" class="text">Python</text>
   <rect x="200" y="120" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="120" width="205" height="20" class="bar-fg"/>
-  <text x="720" y="135" class="text">41%</text>
+  <rect x="200" y="120" width="176" height="20" class="bar-fg"/>
+  <text x="720" y="135" class="text">35%</text>
 
   <text x="30" y="175" class="text">TypeScript</text>
   <rect x="200" y="160" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="160" width="58" height="20" class="bar-fg"/>
-  <text x="720" y="175" class="text">11%</text>
+  <rect x="200" y="160" width="88" height="20" class="bar-fg"/>
+  <text x="720" y="175" class="text">17%</text>
 
-  <text x="30" y="215" class="text">HTML</text>
+  <text x="30" y="215" class="text">JavaScript</text>
   <rect x="200" y="200" width="500" height="20" class="bar-bg"/>
   <rect x="200" y="200" width="29" height="20" class="bar-fg"/>
   <text x="720" y="215" class="text">5%</text>
