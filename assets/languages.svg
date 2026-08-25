@@ -10,20 +10,20 @@
   <rect width="800" height="250" rx="10" class="bg border"/>
   <text x="30" y="40" class="title">// PRIMARY LANGUAGES</text>
 
-  <text x="30" y="95" class="text">Python</text>
+  <text x="30" y="95" class="text">Jupyter Notebook</text>
   <rect x="200" y="80" width="500" height="20" class="bar-bg"/>
   <rect x="200" y="80" width="200" height="20" class="bar-fg"/>
   <text x="720" y="95" class="text">40%</text>
 
-  <text x="30" y="135" class="text">Jupyter Notebook</text>
+  <text x="30" y="135" class="text">Python</text>
   <rect x="200" y="120" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="120" width="200" height="20" class="bar-fg"/>
-  <text x="720" y="135" class="text">40%</text>
+  <rect x="200" y="120" width="175" height="20" class="bar-fg"/>
+  <text x="720" y="135" class="text">35%</text>
 
   <text x="30" y="175" class="text">TypeScript</text>
   <rect x="200" y="160" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="160" width="75" height="20" class="bar-fg"/>
-  <text x="720" y="175" class="text">15%</text>
+  <rect x="200" y="160" width="100" height="20" class="bar-fg"/>
+  <text x="720" y="175" class="text">20%</text>
 
   <text x="30" y="215" class="text">HTML</text>
   <rect x="200" y="200" width="500" height="20" class="bar-bg"/>
