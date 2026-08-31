@@ -25,7 +25,7 @@
   <rect x="200" y="160" width="95" height="20" class="bar-fg"/>
   <text x="720" y="175" class="text">19%</text>
 
-  <text x="30" y="215" class="text">HTML</text>
+  <text x="30" y="215" class="text">Java</text>
   <rect x="200" y="200" width="500" height="20" class="bar-bg"/>
   <rect x="200" y="200" width="23" height="20" class="bar-fg"/>
   <text x="720" y="215" class="text">4%</text>
