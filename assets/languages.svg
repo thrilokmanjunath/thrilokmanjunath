@@ -12,21 +12,21 @@
 
   <text x="30" y="95" class="text">Jupyter Notebook</text>
   <rect x="200" y="80" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="80" width="204" height="20" class="bar-fg"/>
-  <text x="720" y="95" class="text">40%</text>
+  <rect x="200" y="80" width="195" height="20" class="bar-fg"/>
+  <text x="720" y="95" class="text">39%</text>
 
   <text x="30" y="135" class="text">Python</text>
   <rect x="200" y="120" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="120" width="181" height="20" class="bar-fg"/>
-  <text x="720" y="135" class="text">36%</text>
+  <rect x="200" y="120" width="173" height="20" class="bar-fg"/>
+  <text x="720" y="135" class="text">34%</text>
 
   <text x="30" y="175" class="text">TypeScript</text>
   <rect x="200" y="160" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="160" width="90" height="20" class="bar-fg"/>
-  <text x="720" y="175" class="text">18%</text>
+  <rect x="200" y="160" width="108" height="20" class="bar-fg"/>
+  <text x="720" y="175" class="text">21%</text>
 
   <text x="30" y="215" class="text">Java</text>
   <rect x="200" y="200" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="200" width="22" height="20" class="bar-fg"/>
+  <rect x="200" y="200" width="21" height="20" class="bar-fg"/>
   <text x="720" y="215" class="text">4%</text>
 </svg>
