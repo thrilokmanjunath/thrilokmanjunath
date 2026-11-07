@@ -34,6 +34,7 @@ BCA / Data Analytics  ──►  Data Science Internship (Prodigy InfoTech)
 
 | Project | Primary Focus & Innovation | Core Benchmark / Metric | Tech Stack |
 | :--- | :--- | :---: | :--- |
+| **[Agentix](https://github.com/thrilokmanjunath/Agentix)** | Enterprise cognitive operating system & System 2 reasoning | **8-stage cognitive cycle**, Episodic Memory | TypeScript, FastAPI, Next.js |
 | **[Synthetic Silence 2.0](https://github.com/thrilokmanjunath/SyntheticSilence2.0)** | Evidence insufficiency detection & manifold shift in LLMs | **AUROC 0.5463 (E0) → 0.2754 (E1)** (proven signal inversion) | Python, PyTorch, Conformal Prediction |
 | **[TerraScope](https://github.com/thrilokmanjunath/TerraScope)** | Living digital twin of Earth & cosmos; real physics | **18,000 SDSS DR17 galaxies** 3D WebGL (60 FPS) | Next.js, Three.js, WebGL, Python |
 | **[EV Battery Quantum](https://github.com/thrilokmanjunath/EV_Battery_Quantum)** | Hybrid Quantum-Classical battery pack design optimization | **100% convergence rate** (QAOA + QKSVM) | Qiskit, QAOA, FastAPI, Celery, Prometheus |
@@ -43,12 +44,23 @@ BCA / Data Analytics  ──►  Data Science Internship (Prodigy InfoTech)
 | **[CareerMatch AI](https://github.com/thrilokmanjunath/career-match-ai)** | Hybrid dense-semantic vector retrieval & skill-gap graph | **NDCG@10 = 0.6136** (vs. 0.0614 Keyword Jaccard) | FAISS, MiniLM, spaCy, Streamlit |
 | **[E-Commerce Churn](https://github.com/thrilokmanjunath/ecommerce-churn-analysis)** | Leak-free customer churn prediction & TreeSHAP analytics | **98.05% Acc, 90.53% Recall, 0.9979 ROC-AUC** | Scikit-learn Pipeline, XGBoost, Streamlit |
 | **[ToothCare](https://github.com/thrilokmanjunath/ToothCare)** | 3D Dental digital twin & clinical NLP treatment planner | **60-120 FPS** PBR, **<8.5ms** local NLP | Swift 5.9, SwiftUI, SceneKit, USDZ |
+| **[GitHub Achievement Lab](https://github.com/thrilokmanjunath/github-achievement-lab)** | Interactive CLI learning harness for Git & CI/CD workflows | **80+ test suite**, full CI/CD matrix | Python 3.10+, Typer, GitHub Actions |
 | **[Nexus-One](https://github.com/thrilokmanjunath/Nexus-One)** | Unified enterprise multi-agent & ML orchestration platform | **Multi-provider failover**, **<120ms** routing | Next.js, FastAPI, LiteLLM, Docker |
 | **[RepoBase](https://github.com/thrilokmanjunath/RepoBase)** | Developer command-palette repository workspace SPA | **<14ms API p95**, **0 KB JS framework bloat** | Django 5, Django Ninja, Vanilla ES6+ |
 
 ---
 
 ## 🌟 Featured Projects
+
+### 🧠 [Agentix](https://github.com/thrilokmanjunath/Agentix)
+*The Cognitive Operating System for Enterprise-Scale AI & Data Science.*  
+An autonomous Cognitive Engine built to replicate the structured reasoning of a Senior Data Scientist — perception, multi-hypothesis deliberation, episodic recall, and automated procedural strategy synthesis.
+- **8-Stage Cognitive Brain**: Implements Perception, Understanding, Deliberation (System 2 Thinking), Reasoning, Planning, Execution, and Learning rather than single-turn prompt execution.
+- **Episodic & Procedural Memory**: Conceptually fingerprints dataset schemas and distribution statistics without storing raw customer data; continuously mines successful execution trajectories to elevate them into version-controlled, reusable procedural strategies.
+- **Zero-Regression Strictness**: High-concurrency FastAPI microservice backend paired with a Next.js dynamic dashboard, verified with strict deterministic pytest suites across brain, episodic, and procedural memory modules.  
+`Python` `FastAPI` `Next.js` `TypeScript` `System 2 Thinking` `Cognitive Architecture` `Episodic Memory`
+
+---
 
 ### 🧠 [Synthetic Silence 2.0](https://github.com/thrilokmanjunath/SyntheticSilence2.0)
 *Evaluating Claim-Space Density for Evidence Insufficiency Under Construction and Reference-Manifold Shift.*  
@@ -76,7 +88,8 @@ A scientifically grounded customer retention platform built on 5,630 customer pr
 Synthesizes Computer Vision, Google Earth Engine satellite telemetry, and spatial ML to evaluate Project Tiger reserves and compute the Tiger Success Index (TSI).
 - **Computer Vision**: YOLOv8 camera-trap detection achieving **mAP@0.5 = 0.842** (Precision: 88.6%, Recall: 81.4%, 64ms CPU latency).
 - **Telemetry & Hardened Paths**: Automated GeoJSON reserve boundaries and multi-layer GIS analytics.
-- **Scientific Transparency**: Explicit high-visibility banners labeling synthetic patrol tracks to distinguish simulation demonstrations from tactical operations.  
+- **Scientific Transparency**: Explicit high-visibility banners labeling synthetic patrol tracks to distinguish simulation demonstrations from tactical operations.
+- **24/7 Keep-Alive & Health Monitoring**: Continuous automated GitHub Actions probe scheduled every 10 minutes to verify cloud availability and prevent cold-start suspension.  
 `Python` `PyTorch` `YOLOv8` `Google Earth Engine` `Streamlit` `GeoPandas`
 
 ---
@@ -125,8 +138,10 @@ Translates unstructured clinical natural language dictation into localized 3D di
 
 ### 🏙️ [BLR Resilience AI](https://github.com/thrilokmanjunath/bengaluru-resilience-ai)
 *Real-time urban resilience intelligence platform for Bengaluru.*  
-Multi-hazard spatial forecasting across flood risk, stormwater surge, AQI, and traffic gridlock across 198+ BBMP wards with conformal confidence bounds.  
-`FastAPI` `Next.js 15` `MapLibre GL` `Spatial ML` `Docker`
+Multi-hazard spatial forecasting across flood risk, stormwater surge, AQI, and traffic gridlock across 198+ BBMP wards with conformal confidence bounds.
+- **Empirical Benchmarks**: 94.2% spatial anomaly precision, <42ms end-to-end alert latency, and 95.0% empirical prediction interval coverage.
+- **High-Performance Architecture**: MapLibre vector engine sustaining 60 FPS GPU rendering and asynchronous FastAPI streaming 1,200 telemetry events/sec.  
+`FastAPI` `Next.js 15` `MapLibre GL` `Spatial ML` `Conformal Prediction` `Docker`
 
 ---
 
@@ -141,6 +156,13 @@ Next.js frontend, FastAPI backend, LiteLLM multi-provider intelligent routing, a
 *Premium developer workspace SPA for repository management.*  
 Features a Command Palette (⌘K), deterministic visual cryptographic color identities, and high-performance asynchronous Django Ninja backend.  
 `Python` `Django 5` `Django Ninja` `Vanilla JavaScript` `PostgreSQL` `SPA`
+
+---
+
+### 🧪 [GitHub Achievement Lab](https://github.com/thrilokmanjunath/github-achievement-lab)
+*Production-quality CLI harness for mastering GitHub workflows, CI/CD, and open-source contribution.*  
+Features an interactive CLI harness built with Python 3.10+ (Typer & Rich), 80+ unit and integration test suite, and complete multi-OS GitHub Actions CI/CD matrix.  
+`Python 3.10+` `Typer` `Pytest` `GitHub Actions` `CI/CD` `DevOps`
 
 ---
 
