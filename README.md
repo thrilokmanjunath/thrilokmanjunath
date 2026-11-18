@@ -35,6 +35,8 @@ BCA / Data Analytics  ──►  Data Science Internship (Prodigy InfoTech)
 | Project | Primary Focus & Innovation | Core Benchmark / Metric | Tech Stack |
 | :--- | :--- | :---: | :--- |
 | **[Agentix](https://github.com/thrilokmanjunath/Agentix)** | Enterprise cognitive operating system & System 2 reasoning | **8-stage cognitive cycle**, Episodic Memory | TypeScript, FastAPI, Next.js |
+| **[TransitPulse-AI](https://github.com/thrilokmanjunath/TransitPulse-AI)** | Explainable spatiotemporal public transit delay forecasting | **MAE 1.46m** (-37.2% vs persistence), **0.34ms P95**, Grade A Audit | LightGBM, XGBoost, TreeSHAP, FastAPI, Streamlit |
+| **[ChronosCast](https://github.com/thrilokmanjunath/ChronosCast)** | Global multi-series retail forecasting & conformal intervals | **10.16% Test WAPE** (913k rows), **94.08%** @ 95% Conformal | LightGBM, Statsmodels, MLflow, FastAPI, Streamlit |
 | **[Synthetic Silence 2.0](https://github.com/thrilokmanjunath/SyntheticSilence2.0)** | Evidence insufficiency detection & manifold shift in LLMs | **AUROC 0.5463 (E0) → 0.2754 (E1)** (proven signal inversion) | Python, PyTorch, Conformal Prediction |
 | **[TerraScope](https://github.com/thrilokmanjunath/TerraScope)** | Living digital twin of Earth & cosmos; real physics | **18,000 SDSS DR17 galaxies** 3D WebGL (60 FPS) | Next.js, Three.js, WebGL, Python |
 | **[EV Battery Quantum](https://github.com/thrilokmanjunath/EV_Battery_Quantum)** | Hybrid Quantum-Classical battery pack design optimization | **100% convergence rate** (QAOA + QKSVM) | Qiskit, QAOA, FastAPI, Celery, Prometheus |
@@ -57,12 +59,32 @@ BCA / Data Analytics  ──►  Data Science Internship (Prodigy InfoTech)
 An autonomous Cognitive Engine built to replicate the structured reasoning of a Senior Data Scientist — perception, multi-hypothesis deliberation, episodic recall, and automated procedural strategy synthesis.
 - **8-Stage Cognitive Brain**: Implements Perception, Understanding, Deliberation (System 2 Thinking), Reasoning, Planning, Execution, and Learning rather than single-turn prompt execution.
 - **Episodic & Procedural Memory**: Conceptually fingerprints dataset schemas and distribution statistics without storing raw customer data; continuously mines successful execution trajectories to elevate them into version-controlled, reusable procedural strategies.
-- **Zero-Regression Strictness**: High-concurrency FastAPI microservice backend paired with a Next.js dynamic dashboard, verified with strict deterministic pytest suites across brain, episodic, and procedural memory modules.  
+- **Enterprise Conversational Workspace**: High-concurrency FastAPI microservice backend paired with a redesigned Next.js Teal Glass dashboard and deterministic pytest suites across brain, episodic, and procedural memory modules.  
 `Python` `FastAPI` `Next.js` `TypeScript` `System 2 Thinking` `Cognitive Architecture` `Episodic Memory`
 
 ---
 
-### 🧠 [Synthetic Silence 2.0](https://github.com/thrilokmanjunath/SyntheticSilence2.0)
+### 🚌 [TransitPulse-AI](https://github.com/thrilokmanjunath/TransitPulse-AI)
+*Explainable, Spatiotemporal ML Platform for Public Transport Delay Forecasting.*  
+Combines verified Bengaluru BMTC GTFS topology, hourly Open-Meteo weather reanalysis, and major urban venue schedules with multi-horizon gradient boosting and TreeSHAP explainability.
+- **Audited Out-of-Time Performance**: Passed independent Phase 2 scientific & leakage audit (Grade A, 22 passing tests). Delivers a **37.2% marginal MAE reduction** over the upstream persistence baseline (`2.329m`), achieving **MAE = 1.463 min** (`RMSE = 2.220m`, `R² = 0.9365`) with production LightGBM (**0.34 ms P95 latency**, `1.39 MB` footprint) and **MAE = 1.382 min** (`R² = 0.9513`) with auxiliary XGBoost.
+- **Scientific Integrity**: Explicitly tags physics-calibrated stochastic delay labels (`dataset_mode: simulated`) with a documented real-world AVL validation roadmap (Delhi DTC, NYC MTA).
+- **Full-Stack Delivery**: Multi-horizon (`15m`, `30m`, `60m`) FastAPI REST service, 8-page Streamlit visual analytics dashboard with scenario simulator, MLflow experiment tracking, and Docker Compose deployment.  
+`Python 3.12` `LightGBM` `XGBoost` `CatBoost` `Optuna` `TreeSHAP` `MLflow` `FastAPI` `Streamlit` `GeoPandas` `Docker`
+
+---
+
+### ⏱️ [ChronosCast](https://github.com/thrilokmanjunath/ChronosCast)
+*Intelligent Multi-Series Time Series Trend Analysis & Conformal Forecasting Platform.*  
+A production-grade global pooled forecasting and MLOps platform modeling **913,000 daily observations** across 500 retail time series (10 stores × 50 SKUs) with zero target leakage.
+- **Verified Benchmarks**: Strict chronological validation (Train: 2013–2016, Val: H1 2017, Untouched Test: H2 2017) across 7 models in 3 tiers. Production LightGBM achieves **10.16% WAPE**, **6.24 MAE**, and **11.75% sMAPE** on the untouched test set (outperforming Seasonal Naive at `18.23%` WAPE).
+- **Conformal Uncertainty Bounds**: Finite-sample calibrated prediction intervals achieving **94.08% empirical coverage** at the 95% nominal target (`88.31%` at 90%, `77.68%` at 80%).
+- **Production Serving & QA**: FastAPI REST service, 7-page Streamlit dashboard with dynamic safety-stock and reorder-point (ROP) inventory insights, MLflow tracking, 35 automated tests, and Ruff CI.  
+`Python 3.12` `LightGBM` `XGBoost` `Statsmodels` `Conformal Prediction` `MLflow` `FastAPI` `Streamlit` `Plotly` `Docker`
+
+---
+
+### 🧠 [Synthetic Silence 2.0](https://github.com/thrilokmanjunath/SyntheticSilence2.0) · [Live Demo ↗](https://syntheticsilence20-rho.vercel.app)
 *Evaluating Claim-Space Density for Evidence Insufficiency Under Construction and Reference-Manifold Shift.*  
 An empirical investigation proving that representation-space density does not provide a robust, construction-invariant signal for hallucination detection across real-world claim manifolds.
 - **Empirical Findings**: Evaluated on frozen benchmarks (FEVER synthetic vs. AVeriTeC real). On synthetic claims, kNN density achieves **AUROC = 0.5463** (95% CI `[0.5366, 0.5564]`, prevalence baseline `0.2403`). On real-world claims lacking evidence, density drops to **AUROC = 0.2754**, establishing a severe **signal inversion** where unverified claims cluster closer to encyclopedic reference embeddings than verified facts.
@@ -183,12 +205,12 @@ Features an interactive CLI harness built with Python 3.10+ (Typer & Rich), 80+ 
 ## 🛠️ Technology Stack & Tooling
 
 - **Languages:** Python (Core), Java 17/21, TypeScript, Swift 5.9, JavaScript (ES6+), SQL, C/C++
-- **Machine Learning & Deep Learning:** PyTorch, scikit-learn, XGBoost, FAISS, Sentence-Transformers, spaCy, NumPy, Pandas
-- **AI & Generative AI:** LiteLLM, Multi-Agent Systems, Sparse Autoencoders, Topological Data Analysis (TDA), Conformal Prediction
+- **Machine Learning & Deep Learning:** PyTorch, LightGBM, XGBoost, CatBoost, scikit-learn, Statsmodels, Optuna, TreeSHAP, FAISS, Sentence-Transformers, spaCy, NumPy, Pandas
+- **AI & Generative AI:** LiteLLM, Multi-Agent Systems, System 2 Cognitive Architectures, Sparse Autoencoders, Topological Data Analysis (TDA), Conformal Prediction
 - **Backend & Cloud Services:** FastAPI, Spring Boot 3 (Project Loom), Django Ninja, Celery, Redis, PostgreSQL
-- **Frontend & Spatial/3D UI:** Next.js 16, React 19, Tailwind CSS, Three.js, SceneKit (USDZ), MapLibre GL
+- **Frontend & Spatial/3D UI:** Next.js 16, React 19, Tailwind CSS, Three.js, SceneKit (USDZ), MapLibre GL, Streamlit, Plotly, Folium
 - **Quantum Computing:** Qiskit, QAOA, QKSVM (NISQ algorithms)
-- **DevOps, MLOps & Telemetry:** Docker, Docker Compose, GitHub Actions, Prometheus, Vercel
+- **DevOps, MLOps & Telemetry:** MLflow, Docker, Docker Compose, GitHub Actions, Prometheus, Vercel, uv, Ruff, Bandit
 
 ---
 
@@ -197,11 +219,22 @@ Features an interactive CLI harness built with Python 3.10+ (Typer & Rich), 80+ 
 | Platform | Production URL | Core Stack |
 |---|---|---|
 | **Portfolio** | [thrilok-portfolio-ruby.vercel.app](https://thrilok-portfolio-ruby.vercel.app) | Next.js · TypeScript · Tailwind |
+| **Synthetic Silence 2.0** | [syntheticsilence20-rho.vercel.app](https://syntheticsilence20-rho.vercel.app) | Python · PyTorch · Conformal Prediction |
 | **TerraScope** | [terrascope-three.vercel.app](https://terrascope-three.vercel.app) | Next.js · Three.js · Astrophysics Engine |
 | **PaperMate AI** | [paper-graph-wine.vercel.app](https://paper-graph-wine.vercel.app) | Next.js 16 · Spring Boot 3 · Redis |
 | **Eyes on Tigers** | [eyes-on-tigers-7mtepkv8ruq3aaulgr7ves.streamlit.app](https://eyes-on-tigers-7mtepkv8ruq3aaulgr7ves.streamlit.app) | Streamlit · PyTorch · GEE |
 | **RepoBase** | [repo-base-iota.vercel.app](https://repo-base-iota.vercel.app) | Django 5 · Django Ninja · Vanilla JS |
 | **E-Commerce Churn**| [thrilokmanjunath.github.io/ecommerce-churn-analysis](https://thrilokmanjunath.github.io/ecommerce-churn-analysis/) | Streamlit · Scikit-learn · XGBoost |
+
+---
+
+## 📡 Live GitHub Telemetry
+
+<div align="center">
+  <img src="./assets/telemetry.svg" alt="GitHub Telemetry" width="760" />
+  <br />
+  <img src="./assets/languages.svg" alt="Primary Languages" width="760" />
+</div>
 
 ---
 
