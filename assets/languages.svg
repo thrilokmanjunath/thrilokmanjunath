@@ -12,8 +12,8 @@
 
   <text x="30" y="95" class="text">Python</text>
   <rect x="200" y="80" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="80" width="211" height="20" class="bar-fg"/>
-  <text x="720" y="95" class="text">42%</text>
+  <rect x="200" y="80" width="230" height="20" class="bar-fg"/>
+  <text x="720" y="95" class="text">46%</text>
 
   <text x="30" y="135" class="text">Jupyter Notebook</text>
   <rect x="200" y="120" width="500" height="20" class="bar-bg"/>
@@ -22,8 +22,8 @@
 
   <text x="30" y="175" class="text">TypeScript</text>
   <rect x="200" y="160" width="500" height="20" class="bar-bg"/>
-  <rect x="200" y="160" width="96" height="20" class="bar-fg"/>
-  <text x="720" y="175" class="text">19%</text>
+  <rect x="200" y="160" width="76" height="20" class="bar-fg"/>
+  <text x="720" y="175" class="text">15%</text>
 
   <text x="30" y="215" class="text">Swift</text>
   <rect x="200" y="200" width="500" height="20" class="bar-bg"/>
